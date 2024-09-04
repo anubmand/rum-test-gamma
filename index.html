@@ -9,17 +9,17 @@
 <script>
   (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
     'cwr',
-    'b23c8a4c-5fb4-47d2-ab18-fc6bf960a2f9',
+    '41c1905a-0254-4f60-8969-117cb79c09ed',
     '1.0.0',
     'us-west-2',
     'https://client.rum.us-east-1.amazonaws.com/1.19.0/cwr.js',
     {
       sessionSampleRate: 1,
-      sessionEventLimit: 0,
+      identityPoolId: "us-west-2:57640a55-4136-45e2-877e-3dcbf2ea9a4c",
       endpoint: "https://dataplane.rum-gamma.us-west-2.amazonaws.com",
-      telemetries: ['errors', 'performance', 'http'],
+      telemetries: ["performance","errors","http"],
       allowCookies: true,
-      enableXRay: true
+      enableXRay: false
     }
   );
 </script>
